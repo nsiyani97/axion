@@ -1,0 +1,17 @@
+.Btn {
+  cursor: pointer;
+  width: fit-content;
+  color: #ffffff;
+  background-color: #024df5;
+  padding: 0.3rem 0.7rem;
+  border-radius: 8px;
+  text-decoration: none;
+  border: 2px solid transparent;
+  transition: ease-in-out 0.4s;
+  display: inline-block;
+}
+.Btn:hover {
+  color: #024df5;
+  background-color: #ffffff;
+  border: 2px solid #024df5;
+}

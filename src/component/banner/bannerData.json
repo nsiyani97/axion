@@ -1,0 +1,35 @@
+[
+  {
+    "id": 1,
+    "deskTitle": "Transforming Modern Enterprises with Software Development",
+    "mobTitle": "Building Software That Builds Your Future",
+    "deskDisc": "Get robust software that automates processes, streamlines operations, and assists your enterprise in achieving goals.",
+    "mobDisc": "We design and develop tailored software solutions that empower businesses to innovate, streamline operations, and achieve their goals. Your vision, our expertise.",
+    "deskBtn": "LET'S CONNECT",
+    "mobBtn": "Consult Axion",
+    "img": "web.svg",
+    "alt": "web"
+  },
+  {
+    "id": 2,
+    "deskTitle": "Build Exceptional Mobile Experiences",
+    "mobTitle": "Create Mobile Apps That Inspire and Perform",
+    "deskDisc": "We design and develop custom mobile apps that delight users and drive business growth. From concept to launch, we craft innovative, intuitive, and high-performance applications tailored to your unique needs.",
+    "mobDisc": "Empower your business with mobile apps that connect, engage, and perform. We build sleek, fast, and user-friendly experiences that drive results.",
+    "deskBtn": "LET'S CONNECT",
+    "mobBtn": "Consult Axion",
+    "img": "mobile.svg",
+    "alt": "mobile"
+  },
+  {
+    "id": 3,
+    "deskTitle": "Turn Data into Insights, Insights into Action",
+    "mobTitle": "Transform Data into Smart Decisions",
+    "deskDisc": "Harness the potential of your data with advanced analytics solutions that drive insights, optimize performance, and fuel growth. Let data Our Solutions for you.",
+    "mobDisc": "Make smarter decisions with data-driven insights. Our analytics solutions help you understand, predict, and act with confidence.",
+    "deskBtn": "LET'S CONNECT",
+    "mobBtn": "Consult Axion",
+    "img": "data.svg",
+    "alt": "data"
+  }
+]

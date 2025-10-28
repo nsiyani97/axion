@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "title": "Custom Software Development",
+    "description": "Our experienced developers offer the best-in-class custom software development services. Companies, irrespective of their sizes and industry sectors, can improve customer services and increase their efficiency with our tailored software.",
+    "img": "custom"
+  },
+  {
+    "id": 2,
+    "title": "Mobile App Development",
+    "description": "We, at Axion Technolab, offer top-notch services in the native and cross-platform app development domains. Companies can reach their target audiences and drive growth through transformation with our feature-rich app solutions.",
+    "img": "mobile"
+  },
+  {
+    "id": 3,
+    "title": "Web Development",
+    "description": "Developing user-focused websites, web applications, and portals has been our forte since inception. We assist your company to increase leads by strengthening its online presence with a secure website having the necessary features.",
+    "img": "web"
+  },
+  {
+    "id": 4,
+    "title": "E-commerce Development",
+    "description": "Boost your business with a robust and user-friendly solution as our experienced eCommerce developers build attractive online stores. We offer end-to-end solutions in the domain of eCommerce web development.",
+    "img": "eCommerce"
+  },
+  {
+    "id": 5,
+    "title": "Data Analytics",
+    "description": "Leverage the maximum advantage of your corporate data with our data analytics solutions. We ensure that you get a solution that seamlessly stores, shares, and analyzes valuable data with full efficiency.",
+    "img": "data"
+  },
+  {
+    "id": 6,
+    "title": "PWA (Progressive Web App)",
+    "description": "Progressive Web Application (PWA) can take your business to a new level by offering the best of both worlds- web and mobile. We offer cost-efficient and comprehensive PWA development services to all companies.",
+    "img": "pwa"
+  }
+]

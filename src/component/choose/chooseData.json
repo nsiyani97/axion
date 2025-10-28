@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "img": "relation",
+    "title": "Long-term Relationship",
+    "desc": "As your trusted software development partner, we believe in maintaining lasting business relationships."
+  },
+  {
+    "id": 2,
+    "img": "process",
+    "title": "Quality-driven Process",
+    "desc": "We emphasize quality at every stage of the software development process to ensure a seamless performance."
+  },
+  {
+    "id": 3,
+    "img": "efforts",
+    "title": "Dedicated Efforts",
+    "desc": "You can hire dedicated developers to get your project on time with the necessary features and functionality."
+  },
+  {
+    "id": 4,
+    "img": "domain",
+    "title": "Domain Expertise",
+    "desc": "We have in-house teams for development, design, quality testing, and maintenance with domain expertise."
+  },
+  {
+    "id": 5,
+    "img": "approach",
+    "title": "Innovative Approach",
+    "desc": "We offer intuitive software to modern enterprises with an innovative approach and insights into trends."
+  },
+  {
+    "id": 6,
+    "img": "success",
+    "title": "Collective Success",
+    "desc": "Our collaborative approach with effective communication can lead your software project toward success."
+  }
+]

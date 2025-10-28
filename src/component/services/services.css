@@ -1,0 +1,22 @@
+.service-card {
+  padding: 20px;
+  border: 2px #0000001a solid;
+  border-radius: 20px 40px;
+}
+
+.service-card:hover {
+  border-color: #024df5;
+  transform: scale(1.01);
+  border-radius: 40px 20px;
+  box-shadow: 0 0 10px #00000029;
+}
+
+.service-card:hover h5,
+.service-card:hover .info {
+  color: #024df5;
+  visibility: visible;
+}
+
+.info {
+  visibility: hidden;
+}

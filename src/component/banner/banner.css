@@ -1,0 +1,15 @@
+/* Move the entire indicator container down */
+.carousel-indicators {
+  bottom: -30px !important;
+}
+
+/* Style each indicator */
+.carousel-indicators [data-bs-target] {
+  height: 5px !important;
+  background-color: gray !important;
+}
+
+/* Active indicator color */
+.carousel-indicators [data-bs-target].active {
+  background-color: #024df5 !important;
+}

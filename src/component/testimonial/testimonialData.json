@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "logo": "Logo.svg",
+    "message": "Axion Technolabs transformed our data management processes, driving efficiency and innovation across our tech teams. Truly a game-changer in the industry!",
+    "name": "Priya S.",
+    "position": "Lead Business Analyst",
+    "image": "Person.svg"
+  },
+  {
+    "id": 2,
+    "logo": "Logo.svg",
+    "message": "Working with Axion Technolabs was an absolute pleasure. Their team delivered high-quality software on time and exceeded our expectations at every stage.",
+    "name": "Rahul Mehta",
+    "position": "Project Manager",
+    "image": "Person.svg"
+  },
+  {
+    "id": 3,
+    "logo": "Logo.svg",
+    "message": "The expertise and professionalism of Axion Technolabs helped us modernize our infrastructure with zero downtime. Highly recommended!",
+    "name": "Sneha Patel",
+    "position": "CTO, FinTech Corp",
+    "image": "Person.svg"
+  }
+]
