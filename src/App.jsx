@@ -9,7 +9,7 @@ import Hire from './component/hire/Hire.jsx';
 import Techstack from './component/techstack/Techstack.jsx';
 import Industries from './component/industries/Industries.jsx';
 import Testimonial from './component/testimonial/Testimonial.jsx';
-import Form from './component/form/Form.jsx';
+import MyForm from './component/form/MyForm.jsx';
 import Footer from './component/footer/Footer.jsx';
 
 function App() {
@@ -25,7 +25,7 @@ function App() {
       <Techstack></Techstack>
       <Industries></Industries>
       <Testimonial></Testimonial>
-      {/* <Form></Form> */}
+      <MyForm></MyForm>
       <Footer></Footer>
     </div>
   )
