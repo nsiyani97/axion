@@ -1,4 +1,5 @@
 import React from 'react'
+import './App.css'
 import Header from './component/header/Header.jsx';
 import Banner from './component/banner/Banner.jsx';
 import About from './component/about/About.jsx';
@@ -14,7 +15,7 @@ import Footer from './component/footer/Footer.jsx';
 
 function App() {
   return (
-    <div>
+    <>
       <Header></Header>
       <Banner></Banner>
       <About></About>
@@ -27,7 +28,7 @@ function App() {
       <Testimonial></Testimonial>
       <MyForm></MyForm>
       <Footer></Footer>
-    </div>
+    </>
   )
 }
 
