@@ -1,5 +1,11 @@
 .carousel-indicators {
-  bottom: -30px !important;
+  bottom: -3rem !important;
+}
+
+@media (max-width: 991px) {
+  .carousel-indicators {
+    display: none !important;
+  }
 }
 
 .carousel-indicators [data-bs-target] {
@@ -17,19 +23,4 @@
 
 .carousel-control-next {
   display: none !important;
-}
-
-.banner-img {
-  width: 100%;
-  max-width: 500px;
-  height: auto;
-  display: block;
-  margin: 0 auto;
-}
-
-@media (max-width: 576px) {
-  .banner-img {
-    max-width: 90%;
-    min-width: unset;
-  }
 }

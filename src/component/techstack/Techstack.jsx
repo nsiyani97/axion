@@ -48,7 +48,7 @@ function TechStack() {
 
   return (
     <Container className="text-center my-5">
-      <h3 className="mb-4">Our Team Bring into Play Tech-Stack</h3>
+      <h2 className="mb-4">Our Team Bring into Play Tech-Stack</h2>
 
       {/* Category Menu */}
       <Stack direction="horizontal" gap={3} className="justify-content-center flex-wrap mb-4">

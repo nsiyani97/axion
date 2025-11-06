@@ -15,7 +15,7 @@ function Choose() {
     <Container className="my-5">
       <Row className="mb-5 align-items-center">
         <Col md={6}>
-          <h3>Why Choose <span style={{color: "#024df5"}}>Axion Technolabs</span> for Software Development?</h3>
+          <h2>Why Choose <span style={{color: "#024df5"}}>Axion Technolabs</span> for Software Development?</h2>
         </Col>
         <Col md={6}>
           <p>Axion Technolabs is a leading IT service provider globally. We have helped startups, SMEs, and large companies transform their processes digitally to grab new opportunities and drive growth. Our in-house teams of professionals can reshape the digital future of any enterprise.</p>

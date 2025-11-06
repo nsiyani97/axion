@@ -2,9 +2,9 @@ import React from "react";
 import "./banner.css";
 import bannerData from "./bannerData.json";
 import { Carousel, Container, Row, Col, Stack, Image } from "react-bootstrap";
-import web from "./assets/web.svg";
-import mobile from "./assets/mobile.svg";
-import data from "./assets/data.svg";
+import web from "./images/web.svg";
+import mobile from "./images/mobile.svg";
+import data from "./images/data.svg";
 
 const images = {
   "web.svg": web,
@@ -19,16 +19,16 @@ function Banner() {
         {bannerData.map((item) => (
           <Carousel.Item key={item.id}>
             <Container>
-              <Row className="align-items-center flex-column-reverse flex-lg-row">
-                <Col>
+              <Row className="align-items-center flex-column-reverse flex-md-row row-gap-5">
+                <Col md={6}>
                   <Stack gap={3}>
                     <h1>{item.deskTitle}</h1>
                     <div>{item.deskDisc}</div>
-                    <div className="Btn">{item.deskBtn}</div>
+                    <button className="Btn">{item.deskBtn}</button>
                   </Stack>
                 </Col>
-                <Col>
-                  <Image src={images[item.img]} alt="web" fluid className="banner-img" />
+                <Col md={6}>
+                  <Image src={images[item.img]} alt="web" fluid />
                 </Col>
               </Row>
             </Container>

@@ -16,9 +16,9 @@ function Services() {
     <Container className="my-5">
       <Row className="mt-4">
         <Col md={6}>
-          <h3>
+          <h2>
             Transform Core Business Processes with Our <span style={{ color: "#024DF5" }}>Technological Expertise</span>
-          </h3>
+          </h2>
         </Col>
         <Col md={6}>
           <p>Axion Technolabs is a leading IT service provider globally. We have helped startups, SMEs, and large companies transform their processes digitally to grab new opportunities and drive growth. Our in-house teams of professionals can reshape the digital future of any enterprise.</p>
