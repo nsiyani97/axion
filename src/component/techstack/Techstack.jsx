@@ -1,17 +1,17 @@
 import React, { useState } from "react";
 import { Container, Row, Col, Stack } from "react-bootstrap";
-import angular from './assets/angular.svg';
+import angular from "./assets/angular.svg";
 import reactLogo from "./assets/react.svg";
 import next from "./assets/next.svg";
 import ios from "./assets/ios.svg";
 import js from "./assets/js.svg";
 import woo from "./assets/woo.svg";
 import php from "./assets/php.svg";
-import java from './assets/java.svg';
-import node from './assets/node.svg';
-import python from './assets/python.svg';
-import android from './assets/android.svg';
-import flutter from './assets/flutter.svg';
+import java from "./assets/java.svg";
+import node from "./assets/node.svg";
+import python from "./assets/python.svg";
+import android from "./assets/android.svg";
+import flutter from "./assets/flutter.svg";
 
 function TechStack() {
   const [active, setActive] = useState("All");
@@ -44,18 +44,24 @@ function TechStack() {
     "Data Analytics",
   ];
 
-  const filteredTechs = active === "All" ? techs : techs.filter((t) => t.category === active);
+  const filteredTechs =
+    active === "All" ? techs : techs.filter((t) => t.category === active);
 
   return (
     <Container className="text-center my-5">
       <h2 className="mb-4">Our Team Bring into Play Tech-Stack</h2>
 
-      {/* Category Menu */}
-      <Stack direction="horizontal" gap={3} className="justify-content-center flex-wrap mb-4">
+      <Stack
+        direction="horizontal"
+        gap={3}
+        className="justify-content-center flex-wrap mb-4"
+      >
         {categories.map((cat) => (
           <button
             key={cat}
-            className={`btn btn-link medium ${active === cat ? "text-primary" : "text-dark"}`}
+            className={`btn btn-link medium ${
+              active === cat ? "text-primary" : "text-dark"
+            }`}
             onClick={() => setActive(cat)}
             style={{ cursor: "pointer", transition: "color 0.3s ease" }}
           >
@@ -64,10 +70,15 @@ function TechStack() {
         ))}
       </Stack>
 
-      {/* Tech Grid */}
       <Row className="justify-content-center">
         {filteredTechs.map((tech, index) => (
-          <Col key={index} xs={6} sm={4} lg={2} className="my-3 d-flex justify-content-center">
+          <Col
+            key={index}
+            xs={6}
+            sm={4}
+            lg={2}
+            className="my-3 d-flex justify-content-center"
+          >
             <Stack
               gap={2}
               className="align-items-center p-3 w-100 h-100"
@@ -85,7 +96,6 @@ function TechStack() {
         ))}
       </Row>
 
-      {/* Hover Effects */}
       <style>
         {`
           .p-3.w-100.h-100:hover {

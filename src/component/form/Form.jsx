@@ -3,12 +3,11 @@ import React from "react";
 
 function Form() {
   return (
-    <div className="container my-5" style={{width: 382,}}>
+    <div className="container my-5" style={{ width: 382 }}>
       <form method="post">
         <div className="row row-gap-3">
           <h2 className="mb-4">Collaborate with us</h2>
 
-          {/* Full Name */}
           <div className="form-group mb-3">
             <input
               type="text"
@@ -23,7 +22,6 @@ function Form() {
             />
           </div>
 
-          {/* Email */}
           <div className="form-group mb-3">
             <input
               type="email"
@@ -38,7 +36,6 @@ function Form() {
             />
           </div>
 
-          {/* Country and Mobile */}
           <div className="d-flex gap-3 mb-3">
             <div className="form-group w-50">
               <select
@@ -73,7 +70,6 @@ function Form() {
             </div>
           </div>
 
-          {/* Message */}
           <div className="form-group mb-3">
             <textarea
               className="form-control bg-transparent"
@@ -87,7 +83,6 @@ function Form() {
             ></textarea>
           </div>
 
-          {/* Budget Range */}
           <div className="form-group mb-4">
             <label htmlFor="range">What’s your budget?</label>
             <input
@@ -99,7 +94,6 @@ function Form() {
             />
           </div>
 
-          {/* File Upload */}
           <div className="form-group mb-4">
             <div className="border border-2 border-black rounded p-2">
               <label htmlFor="file">@Attach File</label>
@@ -111,7 +105,6 @@ function Form() {
             </div>
           </div>
 
-          {/* Submit Button */}
           <div className="form-group">
             <div className="common-button btn btn-primary">Inquire Now</div>
           </div>
